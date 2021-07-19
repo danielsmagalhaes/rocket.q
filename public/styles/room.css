@@ -93,8 +93,8 @@
 /* QUESTIONS */
 .question-wrapper {
   background: var(--light-blue);
-  margin-bottom: .8rem;
-  border-radius: 0 .8rem .8rem .8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
   padding: 2.4rem;
 }
 
@@ -133,7 +133,7 @@
 }
 
 .question-wrapper .actions > a > img {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 }
 
 /* QUESTION READ */
@@ -143,4 +143,29 @@
 
 .question-wrapper.read .question-content .user {
   background: var(--grey-blue);
+}
+
+/* No Questions */
+.no-questions {
+  text-align: center;
+  margin-top: 5.2rem;
+}
+
+.no-questions img {
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.no-questions p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+}
+
+.no-questions p + p {
+  font-family: 'open sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9rem;
 }
